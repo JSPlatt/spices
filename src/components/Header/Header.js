@@ -2,8 +2,8 @@ import React from 'react'
 import './Header.css'
 import BookIcon from '@material-ui/icons/Book';
 import StorefrontIcon from '@material-ui/icons/Storefront';
-import InfoIcon from '@material-ui/icons/Info';
 import SearchIcon from '@material-ui/icons/Search';
+import ContactSupportIcon from '@material-ui/icons/ContactSupport';
 
 function Header() {
     return (
@@ -17,7 +17,7 @@ function Header() {
                     <span>
                         <BookIcon fontSize="large" style={{ color: "burlywood"}}/>Recipes  
                         <StorefrontIcon fontSize="large" style={{ color: "burlywood"}}/>Shop
-                        <InfoIcon fontSize="large" style={{ color:"burlywood" }}/>About
+                        <ContactSupportIcon fontSize="large" style={{ color:"burlywood" }}/>Contact
                     </span>
             </div>
 
