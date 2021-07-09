@@ -8,3 +8,17 @@
     height: 300px;
     width: 300px;
 }
+
+.body__about {
+    text-align: center;
+}
+
+.body__about > h1 {
+    font-weight:bold;
+}
+
+.body__about > p {
+    font-weight: 300;
+}
+
+
