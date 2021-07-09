@@ -3,6 +3,7 @@ import './Header.css'
 import BookIcon from '@material-ui/icons/Book';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import InfoIcon from '@material-ui/icons/Info';
+import SearchIcon from '@material-ui/icons/Search';
 
 function Header() {
     return (
@@ -16,12 +17,15 @@ function Header() {
                     <span>
                         <BookIcon fontSize="large" style={{ color: "burlywood"}}/>Recipes  
                         <StorefrontIcon fontSize="large" style={{ color: "burlywood"}}/>Shop
-                        <InfoIcon fontSize="large" style={{ color:"orange" }}/>About
+                        <InfoIcon fontSize="large" style={{ color:"burlywood" }}/>About
                     </span>
             </div>
 
             <div className="header__right">
-                <span>Right</span>
+                <span>
+                    <input placeholder="Search..." name="q"/>
+                    <SearchIcon fontSize="medium" style={{ color: "burlywood" }} />
+                </span>
             </div>
         </div>
     )
