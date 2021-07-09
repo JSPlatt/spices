@@ -12,10 +12,8 @@ function Header() {
             </div>
 
             <div className="header__center">
-                <BookIcon/>
-                Recipes
-                <StorefrontIcon/>
-                Shop
+                    <BookIcon/>
+                    <StorefrontIcon/>
             </div>
 
             <div className="header__right">

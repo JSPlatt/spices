@@ -11,25 +11,31 @@
 
 .header__logo {
     width: 200px;
-    height: 115px;
+    height: 110px;
     border-bottom: 60px;
     object-fit: contain;
     margin: 0 20px;
     padding: 20px;
+    border: 1px solid red;
 }
 
 .header__center {
-    align-items: center;
-    justify-content: space-between;
+    align-items: normal;
+    justify-content: space-evenly;
     margin: auto;
-    width: 60%;
+    height: 90%;
+    width: 220px;
     padding: 10px;  
+    border: 1px solid red;
+    float: left;
 }
 
 .header__right {
-    position: absolute;
+    position: relative;
     right: 150px;
     width: 200px;
-    height: 120px;
+    height: 90%;
     text-align: right;
+    border: 1px solid red;
+    float: left;
 }
