@@ -4,6 +4,7 @@ import BookIcon from '@material-ui/icons/Book';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import SearchIcon from '@material-ui/icons/Search';
 import ContactSupportIcon from '@material-ui/icons/ContactSupport';
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -15,7 +16,9 @@ function Header() {
 
             <div className="header__center">
                     <span>
+                        <Link to='/recipes'>
                         <BookIcon fontSize="large" style={{ color: "burlywood"}}/>Recipes  
+                        </Link>
                         <StorefrontIcon fontSize="large" style={{ color: "burlywood"}}/>Shop
                         <ContactSupportIcon fontSize="large" style={{ color:"burlywood" }}/>Contact
                     </span>
