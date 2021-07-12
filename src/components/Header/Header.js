@@ -23,7 +23,9 @@ function Header() {
                         <Link to='/shop'>
                             <StorefrontIcon fontSize="large" style={{ color: "burlywood"}}/>Shop
                         </Link>
-                        <ContactSupportIcon fontSize="large" style={{ color:"burlywood" }}/>Contact
+                        <Link to='/contact'>
+                            <ContactSupportIcon fontSize="large" style={{ color:"burlywood" }}/>Contact
+                        </Link>
                     </span>
             </div>
 
