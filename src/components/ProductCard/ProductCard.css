@@ -1,8 +1,12 @@
+.product__card {
+    height: 400px;
+    width: 300px;
+    border: 2px solid lightgray;
+    display: grid;
+}
+
 .product__card > img {
-    width: 180px;
-    height: 180px;
-    border-bottom: 60px;
+    width: 200px;
+    height: 400px;
     object-fit: contain;
-    margin: 20px 0 20px 0;
-    padding: 40px;
 }
