@@ -17,6 +17,7 @@ function Header() {
 
             <div className="header__center">
                     <span>
+                        <div className="header__centerLink">
                         <Link to='/recipes'>
                             <BookIcon fontSize="large" style={{ color: "burlywood"}}/>Recipes  
                         </Link>
@@ -26,6 +27,7 @@ function Header() {
                         <Link to='/contact'>
                             <ContactSupportIcon fontSize="large" style={{ color:"burlywood" }}/>Contact
                         </Link>
+                        </div>
                     </span>
             </div>
 
