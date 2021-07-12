@@ -10,16 +10,19 @@ function Header() {
     return (
         <div className="header">
             <div className="header__left">
-                <img className="header__logo" src="https://i.pinimg.com/originals/d0/6c/0a/d06c0a9aa3c2dd0edefa630f55c9449d.jpg" alt="site logo"/>
-
+                <Link to='/'>
+                    <img className="header__logo" src="https://i.pinimg.com/originals/d0/6c/0a/d06c0a9aa3c2dd0edefa630f55c9449d.jpg" alt="site logo"/>
+                </Link>
             </div>
 
             <div className="header__center">
                     <span>
                         <Link to='/recipes'>
-                        <BookIcon fontSize="large" style={{ color: "burlywood"}}/>Recipes  
+                            <BookIcon fontSize="large" style={{ color: "burlywood"}}/>Recipes  
                         </Link>
-                        <StorefrontIcon fontSize="large" style={{ color: "burlywood"}}/>Shop
+                        <Link to='/shop'>
+                            <StorefrontIcon fontSize="large" style={{ color: "burlywood"}}/>Shop
+                        </Link>
                         <ContactSupportIcon fontSize="large" style={{ color:"burlywood" }}/>Contact
                     </span>
             </div>
