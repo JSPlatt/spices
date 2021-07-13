@@ -4,8 +4,7 @@ import './Shop.css'
 
 function Shop() {
     return (
-        <div>
-           <h1>THIS IS THE SHOP PAGE 🚀 </h1>
+        <div className="shop">
            <ProductCard />
            <ProductCard />
            <ProductCard />

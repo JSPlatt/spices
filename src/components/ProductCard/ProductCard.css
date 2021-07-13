@@ -3,10 +3,15 @@
     width: 300px;
     border: 2px solid lightgray;
     display: grid;
+    padding: 10px;
 }
 
 .product__card > img {
-    width: 200px;
+    width: 300px;
     height: 400px;
-    object-fit: contain;
+    object-fit: fill;
+}
+
+.product__card > p {
+    text-align: center;
 }
