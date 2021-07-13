@@ -9,9 +9,6 @@ function Shop() {
            <ProductCard />
            <ProductCard />
            <ProductCard />
-           <ProductCard />
-           <ProductCard />
-           <ProductCard />
         </div>
     )
 }
